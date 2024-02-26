@@ -1,0 +1,11 @@
+.{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 109;
+    background: linear-gradient(t0 top, rgba(0,0,0,0.5)100%,rgba(0,0,0,0.5)100%), url(rr.jpg.JPG)
+}

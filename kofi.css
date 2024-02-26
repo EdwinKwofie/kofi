@@ -1,0 +1,440 @@
+.{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "popplns", sans-serif;
+}
+
+body{
+    color: white;
+    background-color: rgb(12, 12, 16);
+
+}
+
+.section{
+    display: flex;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    background: rgb(17, 12, 39);
+    height: 0%;
+}
+
+.logo{
+    position: relative;
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    font-weight: ;
+}
+
+.navtor a{
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    margin-left: 35px;
+    transform: -3s;
+    margin-right: -2%;
+    background-color: transparent;
+ 
+}
+
+.navtor a:hover{
+    color: cyan;
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan, 0 0 50px cyan,
+    0 0 100px cyan, 0 0 200px cyan
+}
+
+.home{
+    position: relative;
+    justify-content: space-between;
+    height: -500px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    padding-top: 15%;
+    margin-top: -45%;
+}
+
+.ict{
+    max-width: 100;
+    margin-left: 15%;
+}
+
+.ict h3 {
+    font-size: 32px;
+    font-weight: 700;
+
+}
+
+.ict h1{
+    font-size: 50px;
+    font-weight: 700;
+    margin: -3px 0;
+}
+
+.ict p{
+    font-size: 20px;
+}
+
+.home-scl{
+    
+    background-color: cyan;
+    width: 150px;
+    border-radius: 50px;
+    border: 10px solid cyan;
+    stroke-width: 33%;
+    box-shadow: 0 0 20px cyan;
+    stroke: 34% cyan;
+    stroke-dasharray: 446%;
+    margin: 35px 15px 35px 0;
+
+}
+
+.box{
+    display: inline-block;
+    font-size: 20px;
+    color: cyan;
+    letter-spacing: 1px;
+    background: transparent;
+    border: 0;
+
+}
+
+.box:hover{
+    box-shadow: 0 0 5px cyan,
+    0 0 25px cyan, 0 0 50px cyan,
+    0 0 100px cyan, 0 0 200px cyan
+}
+
+span{
+    color: cyan;
+}
+
+.pic{
+    height: 25%;
+    width: 15%;
+}
+
+.picture{
+    height: 20;
+    width: 8cm;
+    left: 50px;
+    background: transparent;
+    border: 50px;
+    border-radius: 25px;
+    box-shadow: 0 0 500px cyan;
+    border: 0px solid aqua;
+    align-items: center;
+    margin-left: 60%;
+    bottom: 25%;
+    margin-top: 15%;
+}
+
+.about-1{
+    margin: 30px;
+    padding: 5px;
+}
+
+.about-1 h1{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    color: cyan;
+    color: cyan;
+    text-align: center;
+    font-weight: bold;
+    color: cyan;
+    font-size: 50px;
+    font-weight: 700px;
+}
+
+.about-1 p{
+    text-align: center;
+    padding: 3px;
+    color: white;
+}
+
+.about-item{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: rgb(12, 12, 16);
+    padding: 00px,30px;
+    box-shadow: 0 0 9px cyan; 
+}
+
+.about-item i{
+    font-size: 43px;
+    margin: 0;
+}
+
+.about-item h3{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.about-item hr{
+    width: 46px;
+    height: 3px;
+    margin: 0 auto;
+    background-color: cyan;
+    border: none;
+}
+
+.about-item p{
+    margin-top: 20px;
+}
+
+.about-item:hover{
+    background-color: cyan;
+}
+
+.about-item:hover i,
+.about-item:hover h3,
+.about-item:hover p{
+    background-color: cyan;
+}
+
+.about-item:hover hr{
+    background-color: cyan;
+}
+
+.about-item:hover i{
+    transform: translate(-20px);
+}
+
+.about-item:hover i,
+.about-item:hover h3,
+.about-item:hover hr{
+    transition: all 400ms ease-in-out;
+}
+
+footer{
+    background: rgb(17, 12, 39);
+    height: 50px;
+    padding: 1px;
+    width: 100%;
+}
+
+footer p{
+    color: cyan;
+}
+
+.about-2{
+    height: 25%;
+    width: 15%;
+    display: inline-block;
+}
+
+.about{
+    
+}
+
+
+    
+.me{
+    text-align: center;
+    font-weight: bold;
+    font-size: 50px;
+    font-weight: 700px;
+}
+
+.skills{
+    width: 500px;
+    margin: 60px auto;
+    color: white;
+    padding: 20px;
+    box-shadow: 0 0 30px cyan;
+    text-decoration: none;
+
+}
+
+.skill li{
+    margin: 20px 0;
+    padding: 10px;
+}
+
+.bar{
+    background: gray;
+    display: block;
+    height: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px cyan;
+    transition: all cubic-bezier(.25,.8,.25,1);
+}
+
+.bar:hover{
+    box-shadow: 0 0 30px cyan;
+}
+
+.bar span{
+    height: 20px;
+    float: left;
+    background: cyan
+}
+
+.Shadding{
+    width: 90%;
+    animation: Shadding 3s;
+}
+
+.Creativity{
+    width: 70%;
+    animation: Creativity 3s;
+}
+
+.Neat-Work {
+    width: 45%;
+    animation: Neat Work 3s;
+}
+
+.Experience{
+    width: 60%;
+    animation: Experience 3s;
+}.
+
+
+@keyframes Neat-Work{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 45%;
+    }
+}
+
+@keyframes shadding{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 45%;
+    }
+}
+
+
+
+
+@keyframes Creativity{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 70%;
+    }
+}
+
+
+@keyframes Neat-Work{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 45%;
+    }
+}
+
+
+@keyframes Experience{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 60%;
+    }
+}
+
+
+
+.profile-pic{
+    height: 3cm;
+    width: 3cm;
+    border-radius: 60px;
+    margin-top: 40px;
+    background: white;
+}
+
+.Refrence{
+    width: 350px;
+    height: 430px;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: 40px;
+    color: black;
+    
+}
+
+
+.front-face{
+    width: 80%;
+    height: 80%;
+    background: white;
+    border-radius: 5px;
+    backface-visibility: hidden;
+    box-shadow: 0 0 30px cyan;
+}
+
+
+.cover{
+    background-color: rgb(12, 12, 16);
+    height: 100px;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+
+.profile{
+    height: 115px;
+    width: 115px;
+    border-radius: 50px;
+    border: 500px;
+    padding: 5px;
+    background: white;
+    margin-top: 40px;
+}
+
+.name{
+    font-size: 30px;
+    padding-top: 75px;
+}
+
+.tag{
+    padding: 5px 0;
+}
+
+.pp{
+    margin-top: 10px;
+    padding: 0px 35px;
+    font-size: 15px;
+}
+
+.Refrence-p{
+    text-align: center;
+    display: inline-block;
+    justify-content: center;
+    grid-row: 25px;
+}
+
+.is{
+    color: cyan;
+    text-align: center;
+    font-weight: bold;
+    color: cyan;
+    font-size: 50px;
+    font-weight: 700px;
+
+}

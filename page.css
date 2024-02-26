@@ -1,0 +1,47 @@
+.study{
+    font-size: 90px; color: red; font-style: oblique;
+}
+.my{
+    color: blue; margin: 2cm;
+}
+.mypic{
+    height: 50; width: 25;
+}
+.pic{
+    height: 20cn;
+    width: 15cm;
+}
+.title{
+    font-size: 70px; 
+    margin: 5cm;
+    font-style: oblique;
+    color: red;
+}
+.size{height: 20cm;
+    width: cm15;
+}
+.{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100;
+    height: 109yh;
+    background-size: center;
+    background-position: center;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(rr.jpg.JPG)
+    
+    }
+    .navber{
+        width: 1200px;
+        height: 75px;
+        margin: auto;
+    }
+    .icon{
+        width: 200px;
+        float: left;
+        height: 70px;
+    }
+    .logo{
+        color: brown;
+    }

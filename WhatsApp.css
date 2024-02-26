@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+/*
+nav{
+    display: flex;
+    width: 84%;
+    margin: 3%;
+    padding: 5px 0;
+    align-items: center;
+    justify-content: space-between;
+}*/
+
+header 
+{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    align-items: center;
+    display: flex;
+   
+
+}
+
+header.image-container {
+    align-items: center;
+    display: flex;
+   justify-content: center;
+}
+
+span.colour-changer{
+    color: rgb(226, 10, 10)10);
+    text-decoration: none;
+    width: 50%;
+    height: 50%;
+}
+
+.team{
+
+    width: 50%;
+    font-style: inherit;
+}
+
+div.edwin{
+    
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 101%;
+    background-color: rgb(5, 5, 92);
+    color: white;
+    font-size: 50px;
+}
+
+div.edwin b{
+    color: red;
+}
+
+div.edwin h4 {
+color: red;
+}
+
+div.eddy ul {
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+    size: 10px;
+    width: 300%;
+    
+}
+
+span.color{
+    color: red;
+    font-size: 50px;
+    size: 3%;
+    text-emphasis-position: 8cm;
+    float: left;
+    margin-left: 100px;
+    margin-top: 30px;
+}
+
+.am{
+    background-color: yellow;
+    background-size: 50000%;
+
+
+}
+
+div.kofi{
+    list-style: none;
+    margin-left: 55px;
+    margin-right: 55px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: blue;
+    font-size: 14px;
+
+    
+}
+
+.my{
+    align-content: center;
+    justify-content: center;
+    color: blue;
+    margin-left: 150px;
+}
